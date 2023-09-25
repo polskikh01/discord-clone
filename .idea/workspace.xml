@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ffb687-f746-474d-ac79-b5125ce9c077" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(main)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(setup)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/servers/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/action-tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/file-upload.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/modals/inital-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/mode-toggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/providers/theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/current-profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/initial-profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/uploadthing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/create-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/providers/modal-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-modal-store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/mode-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -90,23 +69,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/lf&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\lf\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/lf/components/modals",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "C:\\lf\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\lf\components\modals" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\lf\app\(main)" />
       <recent name="C:\lf\app\(main)\(routes)" />
@@ -184,7 +166,7 @@
       <workItem from="1694291168638" duration="8098000" />
       <workItem from="1694413505919" duration="406000" />
       <workItem from="1694435968002" duration="2920000" />
-      <workItem from="1695629760400" duration="1675000" />
+      <workItem from="1695629760400" duration="3269000" />
     </task>
     <servers />
   </component>
