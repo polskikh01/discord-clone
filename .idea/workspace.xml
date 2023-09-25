@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ffb687-f746-474d-ac79-b5125ce9c077" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/modals/create-server-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/providers/modal-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-modal-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/mode-toggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +86,11 @@
       <recent name="C:\lf\components\modals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lf\app\(main)\(routes)\servers\[serverId]" />
+      <recent name="C:\lf\app\(main)\(routes)\servers" />
       <recent name="C:\lf\app\(main)" />
       <recent name="C:\lf\app\(main)\(routes)" />
       <recent name="C:\lf\src" />
-      <recent name="C:\lf" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -166,7 +163,7 @@
       <workItem from="1694291168638" duration="8098000" />
       <workItem from="1694413505919" duration="406000" />
       <workItem from="1694435968002" duration="2920000" />
-      <workItem from="1695629760400" duration="3269000" />
+      <workItem from="1695629760400" duration="6444000" />
     </task>
     <servers />
   </component>
