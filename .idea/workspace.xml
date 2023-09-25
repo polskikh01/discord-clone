@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ffb687-f746-474d-ac79-b5125ce9c077" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/server/server-header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/server/server-sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(invite)/(routes)/invite/[inviteCode]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/servers/[serverId]/invite-code/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/invite-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-origin.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/providers/modal-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/providers/modal-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/server/server-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/server/server-header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-modal-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-modal-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +90,11 @@
       <recent name="C:\lf\components\modals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lf\app\api\servers\[serverId]\invite-code" />
       <recent name="C:\lf\app\(main)\(routes)\servers\[serverId]" />
       <recent name="C:\lf\app\(main)\(routes)\servers" />
       <recent name="C:\lf\app\(main)" />
       <recent name="C:\lf\app\(main)\(routes)" />
-      <recent name="C:\lf\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -163,7 +167,7 @@
       <workItem from="1694291168638" duration="8098000" />
       <workItem from="1694413505919" duration="406000" />
       <workItem from="1694435968002" duration="2920000" />
-      <workItem from="1695629760400" duration="6444000" />
+      <workItem from="1695629760400" duration="10572000" />
     </task>
     <servers />
   </component>
